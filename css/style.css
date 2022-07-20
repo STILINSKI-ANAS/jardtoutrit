@@ -98,6 +98,7 @@ body {
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    border: none;
 }
 
 @media (max-width: 991.98px) {
@@ -122,6 +123,8 @@ body {
         opacity: 0;
         visibility: hidden;
         transition: .5s;
+        border: none;
+        outline: none;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
@@ -129,6 +132,8 @@ body {
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        border: none;
+        outline: none;
     }
 }
 
@@ -373,7 +378,16 @@ body {
     background-color: #fff !important;
     transition: background-color 200ms linear;
   }
+  .navbar-light .navbar-toggler {
 
+    border: none !important;
+  }
+
+
+  button:focus:not(:focus-visible) {
+    outline: 0;
+    border: none;
+  }
   .logo{
     max-width: 90px;
     height: auto;
