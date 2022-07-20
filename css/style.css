@@ -389,7 +389,18 @@ body {
     border: none;
   }
   .logo{
-    max-width: 90px;
-    height: auto;
-    margin-left: 0px;
+    display: flex;
+  }
+  .logo1{
+    width: auto;
+    max-height: 65px;
+  }
+  .logo2{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+    height: 80px;
+    width: auto; 
+    padding-left: 2.6rem; 
   }
