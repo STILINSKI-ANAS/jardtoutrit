@@ -373,3 +373,9 @@ body {
     background-color: #fff !important;
     transition: background-color 200ms linear;
   }
+
+  .logo{
+    max-width: 90px;
+    height: auto;
+    margin-left: 0px;
+  }
